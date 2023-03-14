@@ -17,4 +17,5 @@ sol = solve(prob)
 
 using Plots
 
-plot(sol)
+p = plot(sol)
+savefig(p, "plots/lorenz.pdf")
